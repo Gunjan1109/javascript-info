@@ -1,6 +1,5 @@
 "use client";
 
-import Head from "next/head";
 import EcmaScript from "./components/ecmascript";
 import Future from "./components/future";
 import Header from "./components/header";
@@ -32,12 +31,6 @@ const Home = () => {
 
   return (
    <>
-   <Head>
-    <title>Javascript Info</title>
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1219299340590086"
-     crossorigin="anonymous"></script>
-   </Head>
   <Header handleNavigation={handleNavigation}/>
   {renderBody()}
    </>
