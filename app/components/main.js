@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Main = ({handleNavigation}) => {
     return (
-        <>
+        <div className="max-w-screen-lg mx-auto">
         <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -27,7 +27,7 @@ const Main = ({handleNavigation}) => {
     <div className="flex flex-wrap">
       <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60" onClick={() => handleNavigation("history")}>
         <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">History</h2>
-        <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        <p className="leading-relaxed text-base mb-4">History of Javascript</p>
         <a className="text-indigo-500 inline-flex items-center">Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -36,7 +36,7 @@ const Main = ({handleNavigation}) => {
       </div>
       <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60" onClick={() => handleNavigation("ecmascript")}>
         <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">EcmaScript</h2>
-        <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        <p className="leading-relaxed text-base mb-4">About EcmaScript</p>
         <a className="text-indigo-500 inline-flex items-center">Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -45,7 +45,7 @@ const Main = ({handleNavigation}) => {
       </div>
       <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60" onClick={() => handleNavigation("future")}>
         <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Future</h2>
-        <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        <p className="leading-relaxed text-base mb-4">Future of Javascript</p>
         <a className="text-indigo-500 inline-flex items-center">Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -55,7 +55,7 @@ const Main = ({handleNavigation}) => {
     </div>
   </div>
 </section>
-        </>
+        </div>
     )
 }
 
